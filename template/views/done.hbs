@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+<section class="thank-you">
+    <div class="message">
+        <i class="fas fa-thumbs-up fa-5x animated bounce"></i> <!-- Font Awesome icon with animation -->
+        <h2>Thank You for Contacting Me!</h2>
+        <p>Your message has been received. I'll get back to you as soon as possible.</p>
+         <button class="btn" onclick="redirectToMainPage()">Go to Main Page</button>
+    </div>
+</section>
+<script>
+    function redirectToMainPage() {
+        window.location.href = "/"; // Replace "mainpage.html" with the URL of your main page
+    }
+</script> </body>
+</html>
